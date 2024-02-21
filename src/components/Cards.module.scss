@@ -1,0 +1,88 @@
+section {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	gap: 50px;
+
+	.container {
+		width: 1430px;
+		height: 200px;
+		background-color: white;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+		gap: 40px;
+		border-radius: 20px;
+		box-shadow: 0 0 30px 0 white;
+
+		.TextField {
+			border-radius: 10px;
+			width: 1200px;
+			height: 40px;
+		}
+
+		Button {
+			width: 300px;
+			height: 35px;
+		}
+	}
+
+	.edit {
+		display: flex;
+		justify-content: center;
+		width: 600px;
+		height: 300px;
+		background-color: bisque;
+		flex-direction: column;
+		align-items: center;
+		border-radius: 20px;
+		box-shadow: 0 0 30px 0 white;
+
+		.save {
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			align-items: center;
+			width: 400px;
+			height: 200px;
+			background: white;
+			border-radius: 20px;
+			border: 2px solid black;
+			gap: 20px;
+			box-shadow: 0 0 30px black;
+
+			button {
+				width: 200px;
+				height: 30px;
+			}
+		}
+		.save:hover {
+			transition: 5s;
+		}
+		.button1 {
+			width: 400px;
+			height: 30px;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			gap: 30px;
+
+			h3 {
+				color: purple;
+			}
+
+			button {
+				border-radius: 10px;
+			}
+			button:hover {
+				background: rgb(0, 213, 255);
+				transition: 2s;
+			}
+		}
+	}
+	.edit:hover {
+		transition: 4s;
+	}
+}
